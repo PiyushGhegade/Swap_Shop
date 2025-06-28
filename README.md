@@ -61,8 +61,7 @@ client/
 ├── App.tsx # Main router  
 └── main.tsx  
 
-Copy  
-Edit  
+
 server/  
 ├── controllers/ # Express controllers (auth, listing, category, message, etc.)  
 ├── middleware/ # Auth protection middleware  
@@ -71,8 +70,6 @@ server/
 └── index.ts # Main server entry  
 
 yaml  
-Copy  
-Edit  
 
 ---
 
@@ -107,12 +104,12 @@ Edit
 
 ## 🚧 Setup Instructions
 
-### Prerequisites
+# Prerequisites
 
 - Node.js & npm
 - MongoDB instance (local or Atlas)
 
-### Setup Backend
+# Setup Backend
 
 ```bash
 cd server
