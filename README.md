@@ -48,31 +48,31 @@ The goal is to reduce waste, promote reuse, and build a sustainable culture of s
 
 ## ⚙️ Project Structure
 
-client/
-├── components/
-│ ├── layout/ # Header, footer, layout components
-│ ├── products/ # Product grid, cards, detail views
-│ ├── categories/ # Category sections and cards
-│ ├── profile/ # Profile info, user listings
-│ ├── messages/ # Chat and conversations
-│ └── ui/ # Common UI elements (buttons, inputs, etc.)
-├── hooks/ # Auth and toast hooks
-├── pages/ # Home, Auth, Listing, Profile, etc.
-├── App.tsx # Main router
-└── main.tsx
+client/  
+├── components/  
+│ ├── layout/ # Header, footer, layout components  
+│ ├── products/ # Product grid, cards, detail views  
+│ ├── categories/ # Category sections and cards  
+│ ├── profile/ # Profile info, user listings  
+│ ├── messages/ # Chat and conversations  
+│ └── ui/ # Common UI elements (buttons, inputs, etc.)  
+├── hooks/ # Auth and toast hooks  
+├── pages/ # Home, Auth, Listing, Profile, etc.  
+├── App.tsx # Main router  
+└── main.tsx  
 
-Copy
-Edit
-server/
-├── controllers/ # Express controllers (auth, listing, category, message, etc.)
-├── middleware/ # Auth protection middleware
-├── models/ # Mongoose models
-├── routes/ # API route definitions
-└── index.ts # Main server entry
+Copy  
+Edit  
+server/  
+├── controllers/ # Express controllers (auth, listing, category, message, etc.)  
+├── middleware/ # Auth protection middleware  
+├── models/ # Mongoose models  
+├── routes/ # API route definitions  
+└── index.ts # Main server entry  
 
-yaml
-Copy
-Edit
+yaml  
+Copy  
+Edit  
 
 ---
 
