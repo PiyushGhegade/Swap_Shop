@@ -2,9 +2,7 @@
 
 > Developed with ❤️ by [Ansh Prem](https://github.com/anshprem) & [Piyush Ghegade](https://github.com/piyushghegade)
 
----
-
-A full-stack marketplace built for IIT Patna students to buy, sell, and swap items within their campus community.  
+--
 
 ## 📖 About the Project
 **CampusMarket (SwapShop)** is a campus-exclusive online marketplace designed for the students of IIT Patna. The platform aims to simplify how students buy, sell, and exchange used goods such as books, electronics, furniture, and more—all within a secure and familiar campus environment.
