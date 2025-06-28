@@ -1,0 +1,148 @@
+📄 CampusMarket Project — Features & Functionality
+🌟 Main Features
+User authentication (sign up, login, logout, session restore)
+
+Buy & sell items within IIT Patna campus
+
+Browse items by category
+
+Search items by title keywords
+
+Upload multiple images for listings (up to 5)
+
+Create new listings with price, description, and campus location
+
+View product detail page
+
+Real-time messaging between buyers and sellers
+
+Profile management and listings view
+
+Admin: Approve categories (if needed)
+
+Safety tips, help center, terms & privacy pages
+
+Responsive and clean UI with category tiles and recent listings
+
+🗂️ Backend Features
+Express.js server
+
+JWT authentication middleware (protect)
+
+Controllers for listings, categories, users, conversations, messages
+
+Search controller to find items by title
+
+MongoDB models (Mongoose)
+
+Image uploads handled as Base64 (optional to move to cloud later)
+
+Separate routes for each resource
+
+Secure password hashing
+
+🖥️ Frontend Features
+React with hooks
+
+Wouter for routing
+
+Dynamic search bar in header
+
+Reusable ProductGrid and ProductCard components
+
+Category page, listing page, and profile pages
+
+Realtime unread message badge
+
+Mobile-friendly header & search
+
+📄 CampusMarket — File Descriptions
+✅ Client Side (React)
+App.tsx — Entry point, defines routes and layout
+
+pages/home-page.tsx — Main landing page with hero, categories, recent items
+
+pages/auth-page.tsx — Login and signup UI
+
+pages/listing-page.tsx — Individual product detail page
+
+pages/product-detail-page.tsx — Detailed product view and seller chat
+
+pages/create-listing-page.tsx — Form to create new listing
+
+pages/profile-page.tsx — User profile and their items
+
+pages/messages-page.tsx — Chat conversations and messages
+
+pages/category-page.tsx — Lists items filtered by category or search query
+
+pages/ourdevelopers.tsx — Developers team info page
+
+components/layout/header.tsx — Top header with logo, search, profile menu
+
+components/layout/layout.tsx — Wraps all pages for consistent header/footer
+
+components/products/product-grid.tsx — Grid to display list of products
+
+components/products/product-card.tsx — Individual product tile card
+
+components/products/category-card.tsx — Category icon card
+
+components/categories/categories-section.tsx — Displays all categories
+
+components/products/create-listing-modal.tsx — Modal popup for posting item quickly
+
+components/ui/toaster.tsx — Toast notifications
+
+components/ui/button.tsx, input.tsx, textarea.tsx, select.tsx — UI building blocks
+
+✅ Server Side (Node/Express)
+server.ts — Main server file, starts Express and connects MongoDB
+
+controllers/authController.ts — Login, signup, session restore
+
+controllers/listingController.ts — All listing CRUD, category filter, search
+
+controllers/userController.ts — User-related logic
+
+controllers/conversationController.ts — Chat room logic
+
+controllers/messageController.ts — Messaging between users
+
+controllers/categoryController.ts — Categories management
+
+routes/authRoutes.ts — Auth endpoints
+
+routes/listingRoutes.ts — Listings endpoints
+
+routes/userRoutes.ts — User endpoints
+
+routes/conversationRoutes.ts, messageRoutes.ts, categoryRoutes.ts — Messaging and categories
+
+models/User.ts — User schema
+
+models/Listing.ts — Product listing schema
+
+models/Conversation.ts, Message.ts, Category.ts — Other schemas
+
+middleware/protect.ts — JWT authentication middleware
+
+✅ Database (MongoDB)
+Users collection: Stores user info and hashed passwords
+
+Listings collection: Stores products and related data
+
+Categories collection: Available categories
+
+Conversations collection: User chats
+
+Messages collection: Individual messages
+
+🗺️ Additional
+hooks/use-auth.ts — Auth context for frontend
+
+hooks/use-toast.ts — Toast notifications
+
+lib/queryClient.ts — React Query setup
+
+lib/protected-route.tsx — Protected routes wrapper

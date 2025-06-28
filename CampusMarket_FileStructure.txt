@@ -1,0 +1,90 @@
+Frontend (client):
+
+- App.tsx
+  • Main application file, defines all routes and wraps layout and auth.
+
+- pages/home-page.tsx
+  • Home page with hero banner, categories section, and recent listings grid.
+
+- pages/category-page.tsx
+  • Page to show listings filtered by category or search query.
+
+- pages/create-listing-page.tsx
+  • Page to create a new product listing with form and image upload.
+
+- pages/listing-page.tsx
+  • Individual product detail view page.
+
+- pages/profile-page.tsx
+  • User profile page to view and manage listings.
+
+- pages/messages-page.tsx
+  • Conversations and chat view.
+
+- pages/auth-page.tsx
+  • Login and registration page.
+
+- components/layout/header.tsx
+  • Top navigation bar, logo, search bar, profile and create buttons.
+
+- components/layout/layout.tsx
+  • Layout wrapper for pages.
+
+- components/products/product-grid.tsx
+  • Grid layout to show products.
+
+- components/products/product-card.tsx
+  • Individual product card component.
+
+- components/products/category-card.tsx
+  • Category icon/button component.
+
+- components/categories/categories-section.tsx
+  • Grid of category cards shown on home.
+
+- hooks/use-auth.ts
+  • Auth context hook to manage logged-in state.
+
+- lib/queryClient.ts
+  • Configures React Query client and API helpers.
+
+Backend (server):
+
+- controllers/listingController.ts
+  • Handles listing CRUD, category filtering, search.
+
+- controllers/authController.ts
+  • Auth logic for login, signup, session restore.
+
+- models/Listing.ts
+  • Mongoose schema for listings.
+
+- models/User.ts
+  • Mongoose schema for users.
+
+- models/Category.ts
+  • Mongoose schema for categories.
+
+- routes/listingRoutes.ts
+  • API routes for listings.
+
+- routes/authRoutes.ts
+  • API routes for auth.
+
+- middleware/protect.ts
+  • Auth middleware for protecting routes.
+
+- server.ts
+  • Main Express server setup and route registration.
+
+Shared:
+
+- @shared/schema.ts
+  • Type definitions shared between backend and frontend (e.g., Listing, User, Category).
+
+---
+
+General:
+
+- All frontend logic is in React with Tailwind + Remixicon for styling.
+- All backend logic uses Express and MongoDB (Mongoose).

@@ -1,0 +1,44 @@
+CampusMarket — IIT Patna Student Marketplace
+
+- User authentication (sign up & login)
+  • Users can register with IIT Patna email only (e.g., @iitp.ac.in).
+  • Login via secure JWT and session restore.
+
+- Browse products
+  • View all recently added items on the homepage.
+  • Browse by category (e.g., Electronics, Textbooks, Furniture).
+  • Search for items by keywords.
+
+- Create and manage listings
+  • Authenticated users can create new listings with title, description, price, category, photos, and location.
+  • Users can upload up to 5 images (each max 1MB).
+  • Listings include seller profile and contact option.
+
+- View product details
+  • Dedicated product detail page shows all listing information and seller details.
+
+- Messaging system
+  • Buyers can message sellers in real-time (Socket.IO support).
+  • Messages page shows all conversations.
+
+- Profile page
+  • View and manage user's own listings.
+  • Change profile settings (future extension).
+
+- Admin panel (optional future)
+  • Admin approval and listing moderation (mentioned but not implemented yet).
+
+- Safety & help pages
+  • Separate pages for help center, safety tips, terms of service, and privacy policy.
+
+- Responsive design
+  • Mobile-friendly header with collapsible search bar.
+  • Consistent UI using custom UI components and icons (Remixicon).
+
+- Search bar in header
+  • Search products by keyword directly from header, routed to filtered results page.
+
+- Clean code structure
+  • Component-based React frontend using Wouter for routing.
+  • Express backend with MongoDB (Mongoose).
+  • Type-safe forms using React Hook Form & Zod.
