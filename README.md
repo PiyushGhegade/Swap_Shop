@@ -128,6 +128,7 @@ npm run dev
 
 git config user.name "Ansh Prem"
 git config user.email "your.email@example.com"
+```
 
 ### 🔮 Future Scope
 CampusMarket is built with scalability and student needs in mind. Here are some features and enhancements planned for future versions:
