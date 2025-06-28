@@ -1,8 +1,8 @@
 # 🛍️ CampusMarket (SwapShop)
 
-**Team Members:**  
-- Ansh Prem  
-- Piyush Ghegade  
+> Developed with ❤️ by [Ansh Prem](https://github.com/anshprem) & [Piyush Ghegade](https://github.com/piyushghegade)
+
+---
 
 A full-stack marketplace built for IIT Patna students to buy, sell, and swap items within their campus community.  
 
