@@ -6,6 +6,13 @@
 
 A full-stack marketplace built for IIT Patna students to buy, sell, and swap items within their campus community.  
 
+## 📖 About the Project
+**CampusMarket (SwapShop)** is a campus-exclusive online marketplace designed for the students of IIT Patna. The platform aims to simplify how students buy, sell, and exchange used goods such as books, electronics, furniture, and more—all within a secure and familiar campus environment.
+
+Unlike public platforms, CampusMarket ensures that only IIT Patna students with a valid @iitp.ac.in email can access the platform, keeping interactions safe and relevant. With real-time messaging, profile management, and dynamic search features, it fosters a trusted and efficient community-driven marketplace.
+
+The goal is to reduce waste, promote reuse, and build a sustainable culture of sharing on campus—while also making student life easier and more affordable.
+
 ## 🚀 Features
 
 - **Browse and search listings**: Students can easily explore items by category or keyword.
