@@ -1,5 +1,7 @@
 # 🛍️ CampusMarket (SwapShop)
 
+Ansh Prem
+
 A full-stack marketplace built for IIT Patna students to buy, sell, and swap items within their campus community.  
 
 ## 🚀 Features
